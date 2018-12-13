@@ -1,12 +1,27 @@
 {
-  "name": "socketIO",
+  "name": "node-chat-application",
   "version": "1.0.0",
-  "description": "",
+  "description": "Socket IO library usage from Andrew Mead",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sushmeet/socketIO.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sushmeet/socketIO/issues"
+  },
+  "homepage": "https://github.com/Sushmeet/socketIO#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
